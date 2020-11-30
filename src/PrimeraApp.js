@@ -12,7 +12,7 @@ const PrimeraApp = ({
     return (
         <>
             <h1> { saludo  } </h1>
-            <p> { subtitulo } </p>
+            <p>{ subtitulo }</p>
         </>
     );
 
@@ -23,7 +23,7 @@ PrimeraApp.propTypes = {
 }
 
 PrimeraApp.defaultProps = {
-    subtitulo: 12345
+    subtitulo: "Maxi"
 }
 
 
